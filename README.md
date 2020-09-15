@@ -11,20 +11,6 @@ application.
     % [sudo] easy_install slugify
 
 
-## Usage
-
-### Python
-
-    >>> import slugify
-    >>> slugify.slugify(u"Héllø Wörld")
-    u"hello-world"
-
-
-### Command-line
-
-    % echo "Héllø Wörld" | slugify
-    hello-world
-
 
 ## License
 
