@@ -10,7 +10,7 @@ from distutils.core import setup
 rel_file = lambda *args: os.path.join(os.path.dirname(os.path.abspath(__file__)), *args)
 
 def read_from(filename):
-    fp = open(filename)
+    fp = open(filename, 'r', encoding='utf-8')
     try:
         return fp.read()
     finally:
